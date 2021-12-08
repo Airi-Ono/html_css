@@ -1,0 +1,22 @@
+/* font-family: you can slect multipul font but will be used in order of font that selected  */
+
+h1, p{
+    font-family: 'Corinthia', cursive, sans-serif;
+}
+
+h1{
+    color:#7a561b;
+    
+}
+
+
+p{
+    font-size: initial;
+    font-weight: bold;
+    /* default font size is 16px(1em) */
+    font-size: 20px;
+    text-decoration: none;
+    color: olive;
+}
+
+

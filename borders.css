@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(54, 53, 53);
+    color: white;
+}
+
+h1{
+    border-bottom-style: dotted;
+    border-top-style: dotted;
+    border-left-style: double;
+    border-right-style: double;
+    border-left-width: 7px;
+    border-top-color:#00b8c2;
+    border-bottom-color:#00b8c2;
+}
+
+p{
+    /* padding is the space between text and boder */
+    padding: 10px;
+    border-style: outset;
+    border-width: 7px 2px 5px 2px;
+    border-color:#91f016;
+    border-radius: 5px;
+}

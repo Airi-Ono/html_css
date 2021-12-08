@@ -1,0 +1,13 @@
+h1{
+    font-size: 50px;
+    border: solid;
+    width: 200px;
+    padding: 25px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-color: black;
+
+    /* horizontal, vertical, blur, color, you can use multiple shadows with comma */
+    text-shadow: 5px 0px 5px yellow, 5px -5px 6px red ;
+    box-shadow: 5px 5px 5px grey;
+}

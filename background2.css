@@ -1,0 +1,12 @@
+html{
+    background-image: url("img-hero_dog.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;  
+}
+
+/* to right means gradient start from left to right */
+h1{
+    background: linear-gradient(to right,grey,darkgrey);
+}

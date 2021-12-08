@@ -1,0 +1,10 @@
+html{
+    background: linear-gradient(white,black);
+    /* In default, gradient contines only the length of html element */
+
+    /* make gradient continue till the end of the page */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
