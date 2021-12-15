@@ -1,0 +1,34 @@
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    /* overflow: setting when an element's content is too big to fit in its block formatting context  */
+    overflow: hidden;
+    background-color: lightslategrey;
+}
+
+li a{
+    /* places an element on the left or right side of its container, allowing text and inline elements to wrap around it */
+    float: left;
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    /* text-decoration: none: remove underline of links*/
+    text-decoration: none;
+    border-right: 1px solid;
+    min-width: 60px;
+}
+
+li a:hover{
+    background-color: grey;
+
+    animation: myGlowAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myGlowAnimation{
+    /* offset-x | offset-y | blur-radius | color  */
+    50%{text-shadow: 5px 0px 10px black;}
+}

@@ -1,0 +1,41 @@
+.container{
+    /* to use flexbox, you have to define by display: flex;*/
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(250, 200, 125);
+    height: 400px;
+
+
+    /* flex-direction: column-reverse;
+    width: 110px; */
+
+
+    /* justtify-content: defines how the browser distributes space between and around content items along the main-axis(row, column) of a flex container */
+    /* justify-content: center; */
+
+
+    /* align-items: sets the align-self value on all direct children as a group. In Flexbox, it controls the alignment of items on the Cross Axis */
+    /* align-items: center; */
+
+
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.container div{
+    color: 100px;
+    height: 100px;
+    width: 100px;
+    background-color: blanchedalmond;
+    text-align: center;
+
+    /* line-height: set the distance between lines of text. */
+    line-height: 100px;
+    font-size: 50px;
+    margin: 5px;
+}

@@ -1,0 +1,82 @@
+#p1{
+    text-align: left;
+    border: solid 1px;
+    width: 250px;
+}
+
+#p2{
+    text-align: center;
+    border: solid 1px;
+    width: 250px;
+}
+
+#p3{
+    text-align: right;
+    border: solid 1px;
+    width: 250px;
+}
+
+#doggy{
+    width: 150px;
+    height: 170px;
+    float: left;
+    margin: 30px;
+}
+
+div{
+    width: 50%;
+    border: solid;
+}
+
+#fixed{
+    border-style: dotted;
+    width: 400px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+#relative{
+    border-style: dotted;
+    width: 400px;
+    text-align: center;
+    position: relative;
+}
+
+#sticky{
+    border-style: dotted;
+    width: 400px;
+    text-align: center;
+    position: sticky;
+    bottom: 0px;
+}
+
+#static{
+    border-style: dotted;
+    width: 400px;
+    text-align: center;
+    position: static;
+
+}
+
+#box1{
+    position: relative;
+    background-color: pink;
+    width: 400px;
+    height: 400px;
+    bottom: 100%;
+    left: 100px;
+}
+
+/* absolute: relative to its ansesters, otherwise relative to viewport*/
+#box2{
+    position: absolute;
+    background-color: red;
+    width: 200px;
+    height: 200px;  
+    top: 100px;
+    left: 100px;
+}
+
+/* if you want to place item in the center, its better to use "margin: auto;" */
